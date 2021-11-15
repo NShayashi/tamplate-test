@@ -1,0 +1,53 @@
+html, body, h1 {
+	margin: 0
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+a:active {
+	color: #000;
+}
+
+header {
+	background-color: #201BDF;
+	color: #fff;
+	height: 70px;
+	text-align: center;
+}
+
+.global-nav {
+}
+
+.global-nav ul {
+	display: flex;
+	list-style: none;
+	justify-content: end;
+}
+
+.global-nav ul li {
+	padding: 10px 20px;
+	transition: .3s;
+}
+
+.global-nav ul li:hover {
+	background-color: rgba(146,146,146,.4);
+	border-bottom: 4px solid rgba(146,146,146,.8);
+	transition: .3s;
+}
+
+section {
+	height: 500px;
+}
+
+.footer-nav ul {
+	display: flex;
+	list-style: none;
+	justify-content: end;
+}
+
+.footer-nav ul li {
+	padding: 10px 20px;;
+}
