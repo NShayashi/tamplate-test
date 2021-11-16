@@ -13,9 +13,12 @@ a:active {
 
 header {
 	background-color: #201BDF;
-	color: #fff;
 	height: 70px;
 	text-align: center;
+}
+
+header a {
+	color: #fff;
 }
 
 .global-nav {

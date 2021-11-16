@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html lang="ja"><!-- InstanceBegin template="/Templates/index.dwt" codeOutsideHTMLIsLocked="false" -->
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- InstanceBeginEditable name="doctitle" -->
-    <title>テンプレートテスト - about -</title>
-    <!-- InstanceEndEditable -->
-    <link rel="stylesheet" href="style.css">
-<!-- InstanceBeginEditable name="head" -->
-<!-- InstanceEndEditable -->
+    <!-- TemplateBeginEditable name="doctitle" -->
+    <title>テンプレートテスト</title>
+    <!-- TemplateEndEditable -->
+    <link rel="stylesheet" href="../style.css">
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
 </head>
 <body>
 <header>
@@ -25,14 +25,14 @@
 		</ul>
 	</nav>
 	
-	<!-- InstanceBeginEditable name="section" -->
+	<!-- TemplateBeginEditable name="section" -->
 	
 	<section>
-		<h2>概要ページ</h2>
+		<h2>テンプレートのテスト用のサイトです</h2>
 		<p>ここにコンテンツが入ります</p>
 	</section>
 	
-	<!-- InstanceEndEditable -->
+	<!-- TemplateEndEditable -->
 	
 	
 	
@@ -48,4 +48,4 @@
 	  </nav>
 </footer>
 </body>
-<!-- InstanceEnd --></html>
+</html>
