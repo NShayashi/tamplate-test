@@ -2,6 +2,10 @@ html, body, h1 {
 	margin: 0
 }
 
+html {
+	font-family: 'Amatic SC', cursive;
+}
+
 a {
 	color: #000;
 	text-decoration: none;
@@ -11,14 +15,33 @@ a:active {
 	color: #000;
 }
 
+nav {
+	font-size: 1.5rem;
+}
+
 header {
-	background-color: #201BDF;
+	border-bottom: 2px solid #8BA3F0;
 	height: 70px;
 	text-align: center;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 20px 10px;
+	position: fixed;
+	background-color: rgba(255,255,255,.7);
+	width: 97vw;
 }
 
 header a {
-	color: #fff;
+	color: #272727;
+	margin-top: 10px;
+}
+
+h1 {
+	font-size: 1.5rem;
+}
+
+h1::first-letter {
+	color: #8BA3F0;
 }
 
 .global-nav {
@@ -27,7 +50,6 @@ header a {
 .global-nav ul {
 	display: flex;
 	list-style: none;
-	justify-content: end;
 }
 
 .global-nav ul li {
@@ -35,14 +57,43 @@ header a {
 	transition: .3s;
 }
 
-.global-nav ul li:hover {
-	background-color: rgba(146,146,146,.4);
-	border-bottom: 4px solid rgba(146,146,146,.8);
+.global-nav ul li a:hover {
+	border-bottom: 1px solid #000;
 	transition: .3s;
+	padding-bottom: 5px;
+}
+
+
+.content {
+	background-color: #fff;
 }
 
 section {
+	box-sizing: border-box;
+	font-size: 3rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	padding: 5%;
+}
+
+.img-bg01 {
+	background-image: url('img/top.jpg');
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
 	height: 500px;
+}
+
+.img-bg02 {
+	background-image: url('img/top02.jpg');
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 300px;
 }
 
 .footer-nav ul {
@@ -53,4 +104,21 @@ section {
 
 .footer-nav ul li {
 	padding: 10px 20px;;
+}
+
+footer {
+	margin-top: 100px;
+}
+
+footer div {
+	background-color: #8BA3F0;
+	height: 40px;
+	display: flex;
+	align-items: center;
+}
+
+footer div p {	
+	color: #fff;
+	margin: 0 auto;
+	padding: 0;
 }
